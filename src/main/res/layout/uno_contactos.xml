@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E887F"
+    android:orientation="vertical"
+    tools:context=".contactos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:text="Email"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:text="Phone"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:text="Message"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a copy to yourself" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe to our newsletter" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+
+</LinearLayout>
